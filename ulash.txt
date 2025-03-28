@@ -1,0 +1,18 @@
+📌 1. bot.php dagi API_TOKEN va ADMIN_ID sozlash
+API_TOKEN – bot tokenini qo‘ying.
+ADMIN_ID – o‘zingizning Telegram ID-ni yozing.
+
+📌 2. sql.php ga SQL ma'lumotlarini kiritish
+DB_USER – MySQL foydalanuvchi nomi.
+DB_PASS – MySQL paroli.
+DB_NAME – MySQL bazasi nomi.
+
+📌 3. Cron job sozlash
+https://yoursite.com/KinoBot/bot.php?update=send
+Bu kod har 1 daqiqada bot.php faylini ishga tushiradi.
+
+📌 4. Botni webhook qilish
+https://yoursite.com/KinoBot/bot.php
+2️⃣ Webhook o‘rnatish uchun Telegram API orqali buni ishga tushiring:
+3️⃣ Muvaffaqiyatli o‘rnatilgan bo‘lsa, bot avtomatik ishlay boshlaydi.
+
