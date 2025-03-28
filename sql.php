@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect("localhost", "kinobot_abduvositin", "kinobot_abduvositin", "kinobot_abduvositin");
+$connect = mysqli_connect("localhost", "DB_NAME", "DB_PAROL", "DB_NAME");
 
 if ($connect) {
     echo "Ulandi<br>";
